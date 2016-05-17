@@ -18,7 +18,8 @@ library
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5,
                       distributed-process,
-                      network-transport-tcp
+                      network-transport-tcp,
+                      distributed-process-simplelocalnet
   default-language:    Haskell2010
 
 executable map-reduce-exe
@@ -28,6 +29,7 @@ executable map-reduce-exe
   build-depends:       base,
                        distributed-process,
                        network-transport-tcp,
+                       distributed-process-simplelocalnet,
                        map-reduce
   default-language:    Haskell2010
 

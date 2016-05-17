@@ -1,6 +1,6 @@
-\module{Node}
+\module{SendingMessages}
 
-Module \highlighttt{Node} represents an indivudla
+Module \highlighttt{Sending Messages} represents an individual
 process
 
 Import Modules
