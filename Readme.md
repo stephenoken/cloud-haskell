@@ -6,3 +6,6 @@
 
 ## Run...
 - `stack exec`
+
+## References
+- https://github.com/haskell-distributed/distributed-process-demos
